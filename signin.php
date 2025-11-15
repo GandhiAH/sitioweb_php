@@ -55,7 +55,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
             <form action="signin.php" method="post">
                 <input type="text" name="email" placeholder="Correo electrónico" required>
                 <input type="password" name="password" placeholder="Contraseña" required>
-                <input class="regis-tre" type="submit" value="Registrar">
+                <input type="submit" value="Registrar">
             </form>
             <a href="index.php">¿Ya tienes cuenta? Inicia sesión</a>
         </div>
