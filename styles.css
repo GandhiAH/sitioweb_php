@@ -91,8 +91,8 @@ body {
 .cuadro-sigup {
     font-family: "Poppins", sans-serif;
     background: gainsboro;
-    margin-top: 180px;   /* Mover hacia abajo */
-    margin-left: 600px;  /* Mover hacia la derecha */
+    margin-top: 180px;
+    margin-left: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
