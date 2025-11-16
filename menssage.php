@@ -2,11 +2,6 @@
 require 'database.php';
 session_start();
 
-if (!isset($_SESSION['usuario'])) {
-    header("Location: index.php");
-    exit;
-}
-
 if ($_POST['captcha_usuario'] != $_SESSION['captcha']) {
     $_SESSION['error'] = "Captcha incorrecto, intenta de nuevo.";
     header("Location: index.php");
